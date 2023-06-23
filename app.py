@@ -23,20 +23,20 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/pablo-climent-sanchez/",
     "GitHub": "https://github.com/pchinso",
 }
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
+
 #Pending projects
-PROJECTS ={
-'Under construction': '🚧👷‍♂️',
+PROJECTS = {
+'Under construction 🚧👷‍♂️': 'https://github.com/pchinso',
 }
 
-'''PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-}'''
-
-
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+# '''PROJECTS = {
+#     "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
+#     "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
+#     "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
+#     "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+# }'''
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
@@ -76,21 +76,20 @@ st.write('\n')
 st.subheader("Experience & Qualifications")
 st.write('Under construction 🚧👷‍♂️')
 
-'''st.write(
-    """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-"""
-)'''
+# st.write(
+   
+# - ✔️ 7 Years expereince extracting actionable insights from data
+# - ✔️ Strong hands on experience and knowledge in Python and Excel
+# - ✔️ Good understanding of statistical principles and their respective applications
+# - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+# )
 
 
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Hard Skills")
 st.write(
-    """
+"""
 - 👩‍💻 Programming: Python (Pandas, ), Matlab, C++
 - 📊 Data Visualization 
 - 📚 Electronics: Arduino, Automation, SCADA
@@ -149,3 +148,5 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+

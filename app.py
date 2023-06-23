@@ -137,7 +137,7 @@ st.write(
 
 Skills: 
 - SCADA 
-· PLC Programming 
+- PLC Programming 
 - Field Test & implementation
 """
 )

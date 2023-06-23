@@ -25,8 +25,9 @@ SOCIAL_MEDIA = {
 }
 #Pending projects
 PROJECTS ={
-'Under construction 🚧👷‍♂️'
+'Under construction': '🚧👷‍♂️',
 }
+
 '''PROJECTS = {
     "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
     "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",

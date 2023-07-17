@@ -71,10 +71,10 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
 
-# --- EXPERIENCE & QUALIFICATIONS ---
+""" # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Experience & Qualifications")
-st.write('Under construction 🚧👷‍♂️')
+st.write('Under construction 🚧👷‍♂️') """
 
 # st.write(
    
@@ -92,6 +92,7 @@ st.write(
 """
 - 👩‍💻 Programming: Python (Pandas, ), Matlab, C++
 - 📊 Data Visualization 
+- 🧠 AI & Data analytics
 - 📚 Electronics: Arduino, Automation, SCADA
 - 🗄️ Databases: SQL, MongoDB
 """
@@ -114,14 +115,15 @@ st.write(
 - ► Metrology.
 
 Skills: 
-- Renewable energies 
-- Drone photography 
-- Software development 
-- SQL 
-- Data visualisation 
-- Python 
-- Troubleshooting 
-- Data analytics
+- ☀ Renewable energies 
+- 🚁 Drone photogrammetry
+- 📏 Metrology 
+- 💻 Software development 
+- 📅 SQL 
+- 📊 Data visualisation 
+- 🐍 Python 
+- 👨‍🔧 Troubleshooting 
+- 🧠 AI & Data analytics
 """
 )
 
@@ -136,9 +138,9 @@ st.write(
 - ► Installation of SAITEL and SAICOM remote control systems, testing and verification of ENDESA's electricity distribution installations.
 
 Skills: 
-- SCADA 
-- PLC Programming 
-- Field Test & implementation
+- 🖥 SCADA 
+- 🔌 PLC Programming 
+- 🧪 Field Test & implementation
 """
 )
 

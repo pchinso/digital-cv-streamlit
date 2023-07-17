@@ -71,10 +71,10 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
 
-""" # --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Experience & Qualifications")
-st.write('Under construction 🚧👷‍♂️') """
+# --- EXPERIENCE & QUALIFICATIONS ---
+# st.write('\n')
+# st.subheader("Experience & Qualifications")
+# st.write('Under construction 🚧👷‍♂️')
 
 # st.write(
    
@@ -144,11 +144,11 @@ Skills:
 """
 )
 
-""" # --- Projects & Accomplishments ---
-st.write('\n')
-st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
- """
+# --- Projects & Accomplishments ---
+# st.write('\n')
+# st.subheader("Projects & Accomplishments")
+# st.write("---")
+# for project, link in PROJECTS.items():
+#     st.write(f"[{project}]({link})")
+
 

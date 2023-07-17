@@ -18,7 +18,7 @@ NAME = "Pablo Climent"
 DESCRIPTION = """
 Senior Multi-disciplinary Technician.
 """
-EMAIL = "xxx@XX.com"
+EMAIL = "pcs.tech.rd@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/pablo-climent-sanchez/",
     "GitHub": "https://github.com/pchinso",
@@ -142,11 +142,11 @@ Skills:
 """
 )
 
-# --- Projects & Accomplishments ---
+""" # --- Projects & Accomplishments ---
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-
+ """
 
